@@ -1,0 +1,68 @@
+# =========================
+# Python & Virtual Environments
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+virtualenv/
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# Data Files (Large / Raw)
+# =========================
+dataset/*.csv
+!dataset/README.md
+
+# =========================
+# Model Files
+# =========================
+models/
+*.joblib
+*.pkl
+*.sav
+
+# =========================
+# Outputs & Logs
+# =========================
+outputs/
+logs/
+*.log
+
+# =========================
+# OS Specific Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build & Cache
+# =========================
+build/
+dist/
+*.egg-info/
+*.whl
+
+# =========================
+# Git
+# =========================
+.git/
+.gitignore.bak
